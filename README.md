@@ -1,4 +1,4 @@
-# 🌸 Pink Weather App V1.0.0
+# 🌸 Pink Weather App v1.0.0
 
 A beautiful pink-themed weather application with animated effects, built with Python and Tkinter.
 
