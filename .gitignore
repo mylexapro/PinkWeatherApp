@@ -1,0 +1,12 @@
+# Python and API secrets
+.env               # Blocks your real API key file
+.venv/             # Blocks virtual environment folder
+__pycache__/       # Blocks Python cache folders
+*.pyc              # Blocks compiled Python files
+
+# PyCharm/IDE files
+.idea/             # Blocks PyCharm config folder
+*.iml              # Blocks PyCharm project files
+
+# System files
+.DS_Store          # Blocks Mac metadata (if you're on Windows, this won't matter)
