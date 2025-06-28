@@ -53,3 +53,33 @@ pip install requests pillow python-dotenv
 - Use `pip3` instead of `pip` if needed
 - Add `--user` flag if getting permission errors
 - On Linux/macOS, you may need `sudo` for global install
+
+## 🚀 Usage
+
+1. Run the application:
+```bash
+python PinkWeatherApp.py
+```
+
+2. Application interface:
+```
+1. Enter city name in the text field
+2. Click "Get Weather" button
+3. View current weather and 5-day forecast
+```
+
+3. Example workflow:
+```bash
+# After launching the app:
+1. Type "New York" in the city field
+2. Press Enter or click the pink button
+3. See animated weather effects appear
+```
+
+🌈 **Pro Tips**:
+- Double-click the city field to clear previous entries
+- The app automatically updates the time every second
+- Weather animations change based on current conditions
+- Window is resizable if you need more space
+
+  
