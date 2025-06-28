@@ -32,4 +32,24 @@ nano .env  # or use your preferred text editor
 ```ini
 OPENWEATHER_API_KEY=your_api_key_here
 ```
+## 📦 Install Dependencies
 
+1. First install Python 3.7+ if you haven't already:
+```bash
+python --version  # verify installation
+```
+
+2. Install required packages:
+```bash
+pip install -r requirements.txt
+```
+
+3. If you don't have a requirements.txt yet, install packages manually:
+```bash
+pip install requests pillow python-dotenv
+```
+
+💡 **Troubleshooting Tips**:
+- Use `pip3` instead of `pip` if needed
+- Add `--user` flag if getting permission errors
+- On Linux/macOS, you may need `sudo` for global install
