@@ -1,71 +1,25 @@
 # 🌸 Pink Weather App
 
-A beautiful, pink-themed weather application built with Python and Tkinter that displays current weather conditions and a 5-day forecast.
+A beautiful pink-themed weather application with animated effects, built with Python and Tkinter.
 
-![Pink Weather App Screenshot](assets/pink_weather.png)
+![App Screenshot](assets/pink_weather.png)
 
 ## ✨ Features
+- Real-time weather data with 5-day forecast
+- Animated weather effects (snow, rain, clouds)
+- Live updating clock
+- Gradient pink UI with modern widgets
+- Responsive design
 
-- **Current Weather Display**: Shows temperature, conditions, and "feels like" temperature
-- **5-Day Forecast**: Visual forecast with icons for easy reading
-- **Animated Weather Effects**: Snow, rain, and cloud animations
-- **Live Clock**: Always displays current time
-- **Beautiful UI**: Pink gradient background with modern widgets
-- **Responsive Design**: Adapts to different window sizes
+## ⚙️ Setup
 
-## 📦 Installation
+### 1. Get API Key
+🔑 Get a free API key from [OpenWeatherMap](https://openweathermap.org/api)
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/pink-weather-app.git
-   cd pink-weather-app
-Set up environment:
+### 2. Configure Environment
+```bash
+# Rename the example file
+mv .env.example .env
 
-Rename .env.example to .env
-
-Get a free API key from OpenWeatherMap
-
-Add your API key to the .env file:
-
-text
-OPENWEATHER_API_KEY=your_api_key_here
-Install dependencies:
-
-bash
-pip install -r requirements.txt
-🚀 Usage
-Run the application:
-
-bash
-python PinkWeatherApp.py
-How to use:
-
-Enter a city name in the input field
-
-Click "Get Weather" or press Enter
-
-View current weather and 5-day forecast
-
-📂 File Structure
-text
-pink-weather-app/
-├── assets/                # Contains application icons
-│   ├── pink_weather.ico
-│   └── pink_weather.png
-├── PinkWeatherApp.py      # Main application code
-├── .env.example           # Environment variable template
-└── .gitignore             # Specifies intentionally untracked files
-🛠️ Requirements
-Python 3.7+
-
-Required packages (install via pip install -r requirements.txt):
-
-text
-requests==2.31.0
-pillow==10.0.1
-python-dotenv==1.0.0
-🤝 Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements.
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details
+# Edit the file (replace with your actual key)
+nano .env
