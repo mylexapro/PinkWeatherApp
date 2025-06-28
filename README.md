@@ -16,47 +16,20 @@ A beautiful pink-themed weather application with animated effects, built with Py
 ### 1. Get API Key
 🔑 Get a free API key from [OpenWeatherMap](https://openweathermap.org/api)
 
-### 2. Configure Environment
+## ⚙️ Configure Environment
+
+1. Rename the example file:
 ```bash
-# Rename the example file
 mv .env.example .env
+```
 
-# Edit the file (replace with your actual key)
-nano .env
+2. Edit the file with your API key:
+```bash
+nano .env  # or use your preferred text editor
+```
 
-Add your key:
+3. Add your OpenWeatherMap API key:
+```ini
 OPENWEATHER_API_KEY=your_api_key_here
+```
 
-3. Install Dependencies
-pip install -r requirements.txt
-
-🚀 Usage
-python PinkWeatherApp.py
-
-How to use:
-Enter city name
-Click "Get Weather"
-View current conditions and forecast
-
-📂 Files
-.
-├── assets/            # App icons
-├── PinkWeatherApp.py  # Main application
-├── .env.example       # Env template
-└── .gitignore         # Git rules
-
-🛠️ Requirements
-Python 3.7+
-Packages:
-requests
-pillow
-python-dotenv
-
-🤝 Contributing
-PRs welcome! Please:
-Fork the repo
-Create a feature branch
-Submit PR
-
-📄 License
-MIT
