@@ -23,3 +23,40 @@ mv .env.example .env
 
 # Edit the file (replace with your actual key)
 nano .env
+
+Add your key:
+OPENWEATHER_API_KEY=your_api_key_here
+
+3. Install Dependencies
+pip install -r requirements.txt
+
+🚀 Usage
+python PinkWeatherApp.py
+
+How to use:
+Enter city name
+Click "Get Weather"
+View current conditions and forecast
+
+📂 Files
+.
+├── assets/            # App icons
+├── PinkWeatherApp.py  # Main application
+├── .env.example       # Env template
+└── .gitignore         # Git rules
+
+🛠️ Requirements
+Python 3.7+
+Packages:
+requests
+pillow
+python-dotenv
+
+🤝 Contributing
+PRs welcome! Please:
+Fork the repo
+Create a feature branch
+Submit PR
+
+📄 License
+MIT
